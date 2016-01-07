@@ -63,14 +63,12 @@ void reset(){
   for(i=0;i<50;i++)
     for(j=0;j<50;j++){
       matrix[i][j]=0;
-	  edge[i][j]=0;
-	  tree[j]=0;
-	  tree_connect[i][j]=0;
-	  cost[j]=0;
+      edge[i][j]=0;
+      tree[j]=0;
+      tree_connect[i][j]=0;
+      cost[j]=0;
     }
-  
   minimal_edge_count=0;
-  
 }
 
 void calculate(){
